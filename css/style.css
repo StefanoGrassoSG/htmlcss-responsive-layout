@@ -1,0 +1,109 @@
+/**********************
+       CSS RULES
+**********************/
+@import "reset.css";
+@import "general.css";
+@import "colors.css";
+@import "debug.css";
+
+
+/**********************
+        HEADER
+**********************/
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.header-content ul {
+    list-style: none;
+}
+
+.header-content ul li {
+    display: inline-block;
+}
+
+.nav-container {
+    display: none;
+}
+
+/**********************
+       MAIN
+**********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************
+     TABLET QUERY
+*********************/
+@media screen and (min-width:768px) {
+
+        /*MAIN*/
+
+        .col {
+            width: calc((100% / 3) - 1.25rem);
+        }
+
+        .col:first-child {
+            width: calc(((100% / 3) * 2) - 1.25rem);
+        }
+
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************
+       PHONE QUERY
+************************/
+@media screen and (min-width:992px) {
+
+    /*HEADER*/
+
+    .nav-container {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}

@@ -1,0 +1,29 @@
+/*******************
+    COMMON RULES
+*******************/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.875rem -.625rem;
+    padding: 0 1.25rem;
+}
+
+.col {
+    width: calc(100% - 1.25rem);
+    margin: 0 .625rem;
+}
+
+.col:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
+
+.col-left, .col-right {
+    width: 50%;
+}

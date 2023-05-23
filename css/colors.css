@@ -1,0 +1,17 @@
+/****************
+     COLORS
+****************/
+
+:root {
+    --first-color: blue;
+    --first-color-light: skyblue;
+    --second-color: pink;
+}
+
+.main-content-color {
+    background-color: var(--first-color);
+}
+
+.background-color {
+    background-color: var(--first-color-light);
+}
