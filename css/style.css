@@ -32,7 +32,25 @@
 /**********************
        MAIN
 **********************/
+section {
+    margin-bottom: 3.125rem;
+}
 
+.row.plus-padding {
+    padding: 0 3.125rem;
+}
+
+
+
+
+
+
+/***********************
+        FOOTER
+***********************/
+footer {
+    text-align: center;
+}
 
 
 
@@ -64,7 +82,35 @@
             width: calc(((100% / 3) * 2) - 1.25rem);
         }
 
+        .col.big {
+            width: 100%;
+        }
+
+        .col.second-color {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .row h2 {
+            width: 100%;
+        }
+
+        .col.white {
+            width: calc((100% / 2) - 1.25rem);
+        }
+
+        .col.half {
+            width: calc((100% / 2) - 1.25rem);
+            order: 1;
+        }
+
+        .col.last {
+            order: 2;
+        }
         
+
+
     
 }
 
@@ -104,6 +150,21 @@
 
     .menu {
         display: none;
+    }
+
+    /*MAIN*/
+
+    .row.big {
+        flex-wrap: nowrap;
+        padding: 0 6.25rem;
+    }
+
+    .col.big {
+        width: calc(100% / 2);
+    }
+
+    .col.white {
+        width: calc((100% / 3) - 1.25rem);
     }
 
 }

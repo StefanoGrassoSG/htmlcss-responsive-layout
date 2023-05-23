@@ -6,12 +6,26 @@
     --first-color: blue;
     --first-color-light: skyblue;
     --second-color: pink;
+    --third-color: white;
+    --fourth-color: black;
 }
 
 .main-content-color {
     background-color: var(--first-color);
 }
 
-.background-color {
+.light-color {
     background-color: var(--first-color-light);
+}
+
+.second-color {
+    background-color: pink;
+}
+
+.col.white {
+    background-color: var(--third-color);
+}
+
+.black {
+    background-color: var(--fourth-color);
 }
