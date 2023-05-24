@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1.25rem;
+    align-items: center;
 }
 
 .header-content ul {
@@ -29,27 +30,370 @@
     display: none;
 }
 
+.menu button {
+    background-color: var(--first-color);
+    border: none;
+}
+
+.nav-container ul li a {
+    color: var(--third-color);
+    text-decoration: none;
+    margin: 0 .625rem;
+}
+
+.nav-container ul li:last-child {
+    background-color: var(--third-color);
+    border-radius: 1.25rem;
+    padding: .625rem 1.875rem;
+}
+
+.nav-container nav ul li .black-start {
+    color: var(--fourth-color);
+}
+
 /**********************
        MAIN
 **********************/
+
+/**********************
+     SECTION ONE:CARDS
+***********************/
+
+
 section {
     margin-bottom: 3.125rem;
 }
 
-.row.plus-padding {
-    padding: 0 3.125rem;
+.col h2 {
+    margin: .9375rem 0;
+    font-size: 1.25rem ;
+    font-weight: 800;
 }
 
+.col {
+    text-align: left;
+    border-radius: 1.875rem;
+}
 
+.row > .col.light-color.padd {
+    padding-bottom: 0;
+}
 
+.col-left .button {
+    text-align: center;
+}
 
+.col-left .button a{
+    display: inline-block;
+    margin: 1.25rem 0;
+    font-size: 1.25rem;
+    background-color: var(--first-color);
+    padding: .625rem 2.5rem;
+    border-radius: 1.25rem;
+    color: var(--third-color);
+    text-decoration: none;
+}
 
+.col-right {
+    padding-bottom: 0;
+}
+
+.col p {
+    line-height: 1.5625rem;
+    font-size: .9375rem;
+}
+
+.col .icons {
+    text-align: center;
+}
+
+.row .col.light-color:not(:first-of-type) {
+    text-align: center;
+}
+
+/**********************
+     SECTION 2:PLANNING
+***********************/
+
+.col.big:first-child  {
+    padding: 3.125rem 0 0 0;
+    margin-bottom: 0;
+}
+
+.col.big:last-child {
+    padding: 0 0 1.875rem 0;
+}
+
+.col.big h2 {
+    margin: 1.875rem 0;
+    font-size: 1.5625rem;
+    margin: 2.5rem 0;
+    color: var(--third-color);
+}
+
+.col.big p:last-child {
+    font-weight: 100;
+    color: var(--third-color);
+}
+
+.white-container {
+    background-color: var(--third-color);
+    border-radius: 1.875rem;
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.white-container h3 {
+    font-weight: 800;
+    margin: 1.25rem 0;
+}
+
+.white-container p  {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--fourth-color);
+}
+
+.arrow-down {
+    background-color: var(--second-color);
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 1.25rem;
+    border-radius: 50%;
+    margin: 1.25rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**********************
+SECTION 3:TESTIMONIALS
+***********************/
+.col.big.center {
+    text-align: center;
+    padding-top: 0;
+}
+
+.col.big.center h4 {
+    font-weight: 400;
+}
+
+.col.big.center h3 {
+    font-size: 1.875rem;
+    color: var(--second-color);
+    margin: 1.25rem 0;
+}
+
+.col.big.center p {
+    color: var(--fourth-color);
+    margin-bottom: 1.875rem;
+}
+
+.col.second-color img {
+    width: 9.375rem;
+    height: 9.375rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.col.second-color {
+    color: var(--third-color);
+    text-align: center;
+}
+
+.col.second-color h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: .9375rem;
+}
+
+.col.second-color p {
+    margin: 1.25rem 0;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.col.second-color p::after {
+    content: '\f10e';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:2px;
+    color:var(--third-color);
+}
+
+.col.second-color p::before {
+    content: '\f10d';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:2px;
+    color:var(--third-color);
+}
+
+/**********************
+SECTION 4: BENEFIT
+***********************/
+.paddh2 {
+    padding: 2.1875rem 0;
+    font-size: 1.875rem;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.col.white .number {
+    font-size: 2.5rem;
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.col.white h3 {
+    margin: 1.25rem 0;
+    color: var(--second-color);
+}
+
+.col.white p {
+    opacity: 0.8;
+}
+
+.col.white a {
+    text-decoration: none;
+    padding: .625rem 2.5rem;
+    background-color: var(--second-color);
+    border-radius: 1.25rem;
+    display: inline-block;
+    margin: 1.25rem 0 0 0;
+    color: var(--third-color);
+}
+
+/**********************
+SECTION 5: ABOUT US
+***********************/
+.col.about {
+    padding: 0 .625rem;
+}
+
+.row .col .about-title  {
+    font-size: 2.5rem;
+    color: var(--second-color);
+}
+
+.row .col .pmargin {
+    margin-bottom: 1.875rem;
+}
+
+.col .img-about {
+    width: 9.375rem;
+    height: 9.375rem;
+    position: relative;
+}
+
+.col .img-about .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--second-color);
+}
+
+.col .img-about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-text {
+    font-size: 1.5625rem;
+    margin: .9375rem 0;
+    color: var(--second-color);
+}
+
+.linkedin {
+    text-decoration: none;
+    color: var(--third-color);
+    background-color: var(--second-color);
+    padding: .3125rem;
+    margin-top: .625rem;
+    border-radius: 1.25rem;
+    font-size: small;
+}
 
 /***********************
         FOOTER
 ***********************/
 footer {
     text-align: center;
+    color: var(--third-color);
+}
+
+footer h5 {
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+footer h3 {
+    font-size: 1.5625rem;
+    color: var(--third-color);
+    margin: 1.25rem 0;
+}
+
+footer h2 {
+    font-size: 2.5rem ;
+    color: orange;
+}
+
+footer .footer-top p {
+    margin: 1.25rem 0;
+    opacity: 0.9;
+    font-weight: 300;
+    line-height: 1.5625rem;
+}
+
+footer .footer-top .start {
+    text-decoration: none;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    font-weight: 600;
+    padding: .9375rem 3.75rem;
+    border-radius: 1.25rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+}
+
+.footer-top {
+    padding: 2.5rem
+}
+
+.copyright {
+    font-size: small;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.copyright a {
+    color: var(--third-color);
+}
+
+.footer-bottom {
+    padding: 2.5rem;
+}
+
+.footer-bottom p {
+    font-size: small;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.footer-bottom .marginp {
+    margin-bottom: 40px;
+}
+
+.footer-bottom p a {
+    color: var(--second-color);
 }
 
 
@@ -72,8 +416,12 @@ footer {
 *********************/
 @media screen and (min-width:768px) {
 
-        /*MAIN*/
-
+        /**********************
+                MAIN
+        **********************/
+        /**********************
+            SECTION ONE:CARDS
+        ***********************/
         .col {
             width: calc((100% / 3) - 1.25rem);
         }
@@ -82,14 +430,28 @@ footer {
             width: calc(((100% / 3) * 2) - 1.25rem);
         }
 
+        .col-right img {
+            max-width: 60%;
+        }
+
+        .col-left a {
+            text-align: left;
+        }
+
+        .col-left .button {
+            text-align: left;
+        }
+
+        /**********************
+            SECTION 2:PLANNING
+        ***********************/
+
         .col.big {
             width: 100%;
         }
 
-        .col.second-color {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
+        .col.big h2 {
+            font-size: 3.125rem;
         }
 
         .row h2 {
@@ -107,38 +469,27 @@ footer {
 
         .col.last {
             order: 2;
+        } 
+        /**********************
+        SECTION 3:TESTIMONIALS
+        ***********************/
+        .col.second-color {
+            display: flex;
+            width: 100%;
         }
-        
 
+        .col.second-color .text-image {
+            margin-left: 1.25rem;
+            text-align: left;
+        }
 
-    
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /************************
-       PHONE QUERY
+       DESKTOP QUERY
 ************************/
 @media screen and (min-width:992px) {
 
@@ -152,19 +503,77 @@ footer {
         display: none;
     }
 
-    /*MAIN*/
+    /**********************
+              MAIN
+    **********************/
+    /**********************
+        SECTION ONE:CARDS
+    ***********************/
+    
+    .col-right {
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+    .col-right img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .col.light-color.padd {
+        display: flex;
+    }
+
+    .col-left .button {
+        text-align: left;
+    }
+
+    /**********************
+        SECTION 2:PLANNING
+    ***********************/
+    
 
     .row.big {
         flex-wrap: nowrap;
+        align-items: flex-end;
         padding: 0 6.25rem;
+    }
+
+    .col.big:first-child {
+        padding: 3.125rem;
+    }
+
+    .col.big:last-child {
+        padding: 3.125;
+    }
+
+    .col.big h2 {
+        font-size: 1.875rem;
+        margin-top: 6.25rem;
     }
 
     .col.big {
         width: calc(100% / 2);
     }
-
+    
     .col.white {
         width: calc((100% / 3) - 1.25rem);
+    }
+
+    /**********************
+    SECTION 3:TESTIMONIALS
+    ***********************/
+
+    .col.big.center {
+        width: 100%;
+    }
+
+    /**********************
+    SECTION 5: ABOUT US
+    ***********************/
+
+    .col.about {
+        padding: 0 5rem;
     }
 
 }

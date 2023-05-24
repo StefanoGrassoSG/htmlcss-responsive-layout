@@ -5,9 +5,18 @@
 :root {
     --first-color: blue;
     --first-color-light: skyblue;
-    --second-color: pink;
+    --second-color: #9593E6;
     --third-color: white;
     --fourth-color: black;
+    --fifth-color: grey;
+}
+
+.col.light-color {
+    color: var(--first-color);
+}
+
+.col.light-color p {
+    color: var(--fifth-color);
 }
 
 .main-content-color {
@@ -19,7 +28,7 @@
 }
 
 .second-color {
-    background-color: pink;
+    background-color: var(--second-color);
 }
 
 .col.white {

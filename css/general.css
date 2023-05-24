@@ -1,12 +1,20 @@
 /*******************
     COMMON RULES
 *******************/
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 1.25rem;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
 
 .row {
     display: flex;
@@ -18,12 +26,8 @@
 .col {
     width: calc(100% - 1.25rem);
     margin: 0 .625rem;
-}
-
-.col:not(:last-child) {
+    padding: 1.875rem;
     margin-bottom: 1.25rem;
 }
 
-.col-left, .col-right {
-    width: 50%;
-}
+
